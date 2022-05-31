@@ -1,19 +1,13 @@
 # Cleanfolio
 
-A clean and simple portfolio template built using React, if want a template built with HTML, CSS and JS then check out [Cleanfolio Minimal](https://github.com/rahulsinha1996/cleanfolio-minimal).
-
-## Preview
-
-[![Imgur](https://imgur.com/FwDMNEM.gif)](https://rahulsinha1996.github.io/cleanfolio)
-
-[See Live](https://rahulsinha1996.github.io/cleanfolio)
+A clean and simple portfolio template built using React, if want a template built with HTML, CSS and JS then check out [Cleanfolio Minimal](https://github.com/rajshekhar26/cleanfolio-minimal).
 
 ## Instructions
 
 ### Setup
 
 ```shell
-git clone https://github.com/rahulsinha1996/cleanfolio
+git clone [https://github.com/rahulsinha1996/myPorfolio]
 cd cleanfolio
 ```
 
@@ -42,7 +36,7 @@ yarn start
 
 - Open `public/index.html` and replace -
 
-`<title>John Smith</title>` with `<title>Your Name</title>`.
+`<title>Rahul Sinha</title>` with `<title>Your Name</title>`.
 
 - Open `src/portfolio.js` and make changes.
 
