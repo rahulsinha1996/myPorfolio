@@ -6,7 +6,8 @@ import './ProjectContainer.css'
 const ProjectContainer = ({ project }) => (
   <div className='project'>
     <h3>{project.name}</h3>
-
+    <br/>
+    <img className="projectImage" src={project.image} alt={project.name}/>
     <p className='project__description'>{project.description}</p>
     {project.stack && (
       <ul className='project__stack'>
@@ -20,7 +21,7 @@ const ProjectContainer = ({ project }) => (
 
     {project.sourceCode && (
       <a
-        href={project.sourceCode}
+        href={project.sourceCode} target='_blank' rel="noreferrer"
         aria-label='source code'
         className='link link--icon'
       >
@@ -30,7 +31,7 @@ const ProjectContainer = ({ project }) => (
 
     {project.livePreview && (
       <a
-        href={project.livePreview}
+        href={project.livePreview} target='_blank' rel="noreferrer"
         aria-label='live preview'
         className='link link--icon'
       >

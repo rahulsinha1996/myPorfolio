@@ -1,0 +1,64 @@
+.about {
+    flex-direction: column;
+    margin-top: 3em;
+  }
+  
+  .about__name {
+    color: var(--clr-primary);
+  }
+  
+  .about__role {
+    margin-top: 1.2em;
+  }
+  
+  .about__des {
+    font-size: 1.2rem;
+    max-width: 600px;
+  }
+  
+  .about__des,
+  .about__contact {
+    margin-top: 2.4em;
+    text-align: center;
+  }
+  
+  .about .link--icon {
+    margin-right: 0.8em;
+  }
+  
+  .about .btn--outline {
+    margin-right: 1em;
+    text-transform: uppercase;
+  }
+  .imageDiv{
+    justify-content:center;
+    margin:auto
+  }
+  
+  .aboutMain{
+    display:flex;
+    gap:20px
+  }
+  .myImage{
+    height:400px;
+    width:400px;
+    border-radius:50%
+  }
+  @media (max-width: 600px) {
+    .app .about {
+      align-items: flex-start;
+      margin-top: 2em;
+    }
+    .aboutMain{
+      display:flex;
+      flex-direction: column;
+      gap:20px;
+      justify-content: center;
+      margin: auto;
+    }
+    .myImage{
+      height:200px;
+      width:200px;
+    }
+  }
+  

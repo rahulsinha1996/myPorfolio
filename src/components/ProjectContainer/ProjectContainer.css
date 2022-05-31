@@ -27,6 +27,10 @@
   font-size: 0.8rem;
   color: var(--clr-fg-alt);
 }
+.projectImage{
+  height: 150px;
+  width:250px
+}
 
 .project .link--icon {
   margin-left: 0.5em;

@@ -28,6 +28,7 @@
 
 .about .btn--outline {
   margin-right: 1em;
+  text-transform: uppercase;
 }
 .imageDiv{
   justify-content:center;
@@ -58,6 +59,5 @@
   .myImage{
     height:200px;
     width:200px;
-    border-radius:50%
   }
 }
