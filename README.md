@@ -57,6 +57,3 @@ yarn build
 yarn deploy
 ```
 
-## License
-
-[MIT](https://choosealicense.com/licenses/mit/)
