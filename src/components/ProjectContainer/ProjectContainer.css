@@ -45,5 +45,6 @@
   }
   .project{
     display: block;
+    padding: 1em;
   }
 }

@@ -13,13 +13,16 @@ const about = [{
   description:
     "I'm a Web Developer who is always creating and learning awesome stuff. Let's start scrolling and learn more about me.",
   resume: 'https://drive.google.com/file/d/1kEfwM5cvqmFcYXpYQLo1WvzYXYnkBGrX/view?usp=sharing',
+
   
 }]
 
 const aboutme = [{
   // all the properties are optional - can be left empty or delete
+  name: 'Rahul Sinha',
   description:
-    "I'm a Full Stack Web Developer specialization MERN Stack who gained skills from Masai School. I am attentive and agile learner with a diverse foundation of tech industry. Also motivated,self-starter and leader with strong organizational and communicative abilities."
+    "I'm a Full Stack Web Developer specialization MERN Stack who gained skills from Masai School. I am attentive and agile learner with a diverse foundation of tech industry. Also motivated,self-starter and leader with strong organizational and communicative abilities.",
+    image: 'https://raw.githubusercontent.com/rahulsinha1996/myPorfolio/main/src/components/About/rahul_image.JPG',
 }]
 
 const projects = [
@@ -70,7 +73,7 @@ const skills = [
   // if there are no skills, Skills section won't show up
   ['https://raw.githubusercontent.com/rahulsinha1996/myPorfolio/main/New_Logo/html.png','https://raw.githubusercontent.com/rahulsinha1996/myPorfolio/main/New_Logo/html2.PNG',"HTML"],
   ['https://raw.githubusercontent.com/rahulsinha1996/myPorfolio/main/New_Logo/css.png','https://raw.githubusercontent.com/rahulsinha1996/myPorfolio/main/New_Logo/css2.PNG',"CSS"],
-  ['https://raw.githubusercontent.com/rahulsinha1996/myPorfolio/main/New_Logo/typescript.png','https://raw.githubusercontent.com/rahulsinha1996/myPorfolio/main/New_Logo/typescript2.PNG',"JAVASCRIPT"],
+  ['https://raw.githubusercontent.com/rahulsinha1996/myPorfolio/main/New_Logo/javascript.png','https://raw.githubusercontent.com/rahulsinha1996/myPorfolio/main/New_Logo/javascript2.PNG',"JAVASCRIPT"],
   ['https://raw.githubusercontent.com/rahulsinha1996/myPorfolio/main/New_Logo/react.png','https://raw.githubusercontent.com/rahulsinha1996/myPorfolio/main/New_Logo/react2.PNG',"REACT"],
   ['https://raw.githubusercontent.com/rahulsinha1996/myPorfolio/main/New_Logo/nodejs.png','https://raw.githubusercontent.com/rahulsinha1996/myPorfolio/main/New_Logo/nodejs2.png',"NODEJS"],
   ['https://raw.githubusercontent.com/rahulsinha1996/myPorfolio/main/New_Logo/mongodb.png','https://raw.githubusercontent.com/rahulsinha1996/myPorfolio/main/New_Logo/mongodb2.PNG',"MONGODB"],
