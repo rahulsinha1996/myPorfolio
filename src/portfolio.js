@@ -68,14 +68,14 @@ const projects = [
 const skills = [
   // skills can be added or removed
   // if there are no skills, Skills section won't show up
-  ['https://raw.githubusercontent.com/rahulsinha1996/myPorfolio/main/New_Logo/html.png',"HTML"],
-  ['https://raw.githubusercontent.com/rahulsinha1996/myPorfolio/main/New_Logo/css.png',"CSS"],
-  ['https://raw.githubusercontent.com/rahulsinha1996/myPorfolio/main/New_Logo/1_YWazhGyGmNs6K3HZE7lS7Q.png',"JAVASCRIPT"],
-  ['https://raw.githubusercontent.com/rahulsinha1996/myPorfolio/main/New_Logo/react.png',"REACT"],
-  ['https://raw.githubusercontent.com/rahulsinha1996/myPorfolio/main/New_Logo/nodejs.png',"NODEJS"],
-  ['https://raw.githubusercontent.com/rahulsinha1996/myPorfolio/main/New_Logo/mongodb_1014590.png',"MONGODB"],
-  ['https://raw.githubusercontent.com/rahulsinha1996/myPorfolio/main/New_Logo/typescript.png',"TYPESCRIPT"],
-  ['https://raw.githubusercontent.com/rahulsinha1996/myPorfolio/main/New_Logo/express.png',"EXPRESSJS"]
+  ['https://raw.githubusercontent.com/rahulsinha1996/myPorfolio/main/New_Logo/html.png','https://raw.githubusercontent.com/rahulsinha1996/myPorfolio/main/New_Logo/html2.PNG',"HTML"],
+  ['https://raw.githubusercontent.com/rahulsinha1996/myPorfolio/main/New_Logo/css.png','https://raw.githubusercontent.com/rahulsinha1996/myPorfolio/main/New_Logo/css2.PNG',"CSS"],
+  ['https://raw.githubusercontent.com/rahulsinha1996/myPorfolio/main/New_Logo/typescript.png','https://raw.githubusercontent.com/rahulsinha1996/myPorfolio/main/New_Logo/typescript2.PNG',"JAVASCRIPT"],
+  ['https://raw.githubusercontent.com/rahulsinha1996/myPorfolio/main/New_Logo/react.png','https://raw.githubusercontent.com/rahulsinha1996/myPorfolio/main/New_Logo/react2.PNG',"REACT"],
+  ['https://raw.githubusercontent.com/rahulsinha1996/myPorfolio/main/New_Logo/nodejs.png','https://raw.githubusercontent.com/rahulsinha1996/myPorfolio/main/New_Logo/nodejs2.png',"NODEJS"],
+  ['https://raw.githubusercontent.com/rahulsinha1996/myPorfolio/main/New_Logo/mongodb.png','https://raw.githubusercontent.com/rahulsinha1996/myPorfolio/main/New_Logo/mongodb2.PNG',"MONGODB"],
+  ['https://raw.githubusercontent.com/rahulsinha1996/myPorfolio/main/New_Logo/typescript.png','https://raw.githubusercontent.com/rahulsinha1996/myPorfolio/main/New_Logo/typescript2.PNG',"TYPESCRIPT"],
+  ['https://raw.githubusercontent.com/rahulsinha1996/myPorfolio/main/New_Logo/express.png','https://raw.githubusercontent.com/rahulsinha1996/myPorfolio/main/New_Logo/express2.PNG',"EXPRESSJS"]
 
 
 ]
