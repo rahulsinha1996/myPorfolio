@@ -5,7 +5,7 @@ import { skills } from '../../portfolio'
 import './Skills.css'
 
 const Skills = () => {  
-  const [{ themeName, toggleTheme }] = useContext(ThemeContext)
+  const [{ themeName }] = useContext(ThemeContext)
   if (!skills.length) return null
 
   return (
