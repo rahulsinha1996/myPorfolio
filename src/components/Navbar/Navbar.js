@@ -19,14 +19,14 @@ const Navbar = () => {
         style={{ display: showNavList ? 'flex' : null }}
         className='nav__list'
       >
-        {projects.length ? (
+        {aboutme.length ? (
           <li className='nav__list-item'>
             <a
-              href='#projects'
+              href='#aboutme'
               onClick={toggleNavList}
               className='link link--nav'
             >
-              Projects
+              About me
             </a>
           </li>
         ) : null}
@@ -43,6 +43,20 @@ const Navbar = () => {
           </li>
         ) : null}
 
+        {projects.length ? (
+          <li className='nav__list-item'>
+            <a
+              href='#projects'
+              onClick={toggleNavList}
+              className='link link--nav'
+            >
+              Projects
+            </a>
+          </li>
+        ) : null}
+
+
+
         {contact.length ? (
           <li className='nav__list-item'>
             <a
@@ -55,17 +69,7 @@ const Navbar = () => {
           </li>
         ) : null}
 
-          {aboutme.length ? (
-          <li className='nav__list-item'>
-            <a
-              href='#aboutme'
-              onClick={toggleNavList}
-              className='link link--nav'
-            >
-              About me
-            </a>
-          </li>
-        ) : null}
+
       </ul>
 
       <button

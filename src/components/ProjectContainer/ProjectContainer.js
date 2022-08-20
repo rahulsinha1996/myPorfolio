@@ -5,9 +5,14 @@ import './ProjectContainer.css'
 
 const ProjectContainer = ({ project }) => (
   <div className='project'>
-    <h3>{project.name}</h3>
-    <br/>
+    <div>
     <img className="projectImage" src={project.image} alt={project.name}/>
+    </div>
+
+    <div>
+    <h3>{(project.name).toUpperCase()}</h3>
+    
+    
     <p className='project__description'>{project.description}</p>
     {project.stack && (
       <ul className='project__stack'>
@@ -38,6 +43,8 @@ const ProjectContainer = ({ project }) => (
         <LaunchIcon />
       </a>
     )}
+    </div>
+    
   </div>
 )
 

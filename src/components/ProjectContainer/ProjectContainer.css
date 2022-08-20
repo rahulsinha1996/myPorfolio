@@ -4,6 +4,8 @@
   text-align: center;
   box-shadow: var(--shadow);
   transition: transform 0.2s linear;
+  display: flex;
+  gap:30px
 }
 
 .project:hover {
@@ -28,10 +30,20 @@
   color: var(--clr-fg-alt);
 }
 .projectImage{
-  height: 150px;
-  width:250px
+  height: 300px;
+  width:450px
 }
 
 .project .link--icon {
   margin-left: 0.5em;
+}
+
+@media (max-width: 600px) {
+  .projectImage{
+    height: 200px;
+    width:350px
+  }
+  .project{
+    display: block;
+  }
 }
